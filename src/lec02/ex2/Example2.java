@@ -11,7 +11,7 @@ public class Example2 {
 		short d = 10000;
 		
 		// These won't work because of type mismatch
-		//int e = 2.5;
+		// int e = 2.5;
 		// byte f = 200;
 		// short g = a;
 		

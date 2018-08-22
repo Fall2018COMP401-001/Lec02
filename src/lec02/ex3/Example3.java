@@ -79,15 +79,14 @@ public class Example3 {
 			System.out.println("This is what I get");
 		}
 		
-		// Use the Math.abs() function and some
+		// Use the Math.abs() function on the difference with some
 		// sort of precision bound instead.
 		
 		if (Math.abs(a-b) < 0.00001) {
 			System.out.println("This works better");
 		}
 		
-		// If you do it a lot, make a function
-		// for it.
+		// If you do it a lot, make a function for it.
 		if (realCompare(a,b)) {
 			System.out.println("This works better");
 		}
